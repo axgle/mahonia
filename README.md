@@ -15,6 +15,6 @@ mahonia
 	func main(){
 	  enc:=mahonia.NewEncoder("gbk")
 	  //converts a  string from UTF-8 to gbk encoding.
-	  fmt.Println(enc.ConvertString("hello,ÊÀ½ç"))  
+	  fmt.Println(enc.ConvertString("hello,ä¸–ç•Œ"))  
 	}
 
